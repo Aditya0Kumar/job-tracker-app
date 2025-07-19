@@ -64,7 +64,7 @@ MongoDB, Express, React, Node.js
 
 Setup values for the following parameters:
 
-- `MONGO_URL` - should be equal to your MongoDB connection string
+- `MONGO_URI` - should be equal to your MongoDB connection string
 - `SECRET_KEY` - any string that is secret to you. You can use this [Key Generator](https://www.allkeysgenerator.com/)
 - `LIFETIME` - the lifetime of the JWT. This will determine a few things for the app such as for how long a user can stay logged in.
 - `PORT` - is the port number you want the express server to listen to. 4000 by default.
@@ -72,7 +72,7 @@ Setup values for the following parameters:
 Example of a `.env` file:
 
 ```js
-MONGO_URL="Your_MongoDB_Connection_String"
+MONGO_URI="Your_MongoDB_Connection_String"
 SECRET_KEY="Secret_Key_You_Generated_Random_Characters"
 LIFETIME="1d"
 PORT=4000
