@@ -14,37 +14,12 @@ A full-stack **MERN** application for managing job applications, featuring secur
 - Handles API requests efficiently with **Axios**  
 - Enhances UX with custom **alert system** and **paginated job listings**
 
-# Live Demo
-
-[Job Tracker - Live Demo](https://dragons-job-tracker.onrender.com)
-
-You can log-in with a test account:
-
-```js
-email: test@test.com
-pass:  test
-```
-
-# Preview & Screenshots
-
-### 🔍 Browse & Search Jobs  
-View your entire job list with search filters and pagination.
-![All Jobs Page](demo/img/all-jobs-page.jpg)
-
-### ➕ Add New Jobs  
-Submit job entries quickly using a simple input form.
-![Add Job Page](demo/img/add-job-page.jpg)
-
-### 👤 Profile Management  
-Update your basic profile information.
-![Profile Page](demo/img/profile-page.jpg)
 
 # Technologies:
 MongoDB, Express, React, Node.js
 
 # Specifications
 
-- User can view their pending applications and job statistics, together with an interchangeable chart.
 - User can Register, Log-in, Log-out of the app securely with authentication
 - Be able to search through their list of jobs added, with filter search options. Can quickly remove filters in one click.
 - User can view and browse their list of jobs.
